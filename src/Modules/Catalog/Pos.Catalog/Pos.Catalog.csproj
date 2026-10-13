@@ -5,8 +5,4 @@
     <ProjectReference Include="..\Pos.Catalog.Contracts\Pos.Catalog.Contracts.csproj" />
   </ItemGroup>
 
-  <PropertyGroup>
-
-  </PropertyGroup>
-
 </Project>
