@@ -1,0 +1,2 @@
+# POS System
+<A point-of-sale system fro a single retail store with multiple cashiers, built from screatch in .NET to practice productioni-grade backend design: clean architecture, transactions, concurrency, and testing.>
