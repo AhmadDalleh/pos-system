@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection;
-using System.Text;
+﻿using System.Reflection;
 
-namespace Pos.Catalog
+namespace Pos.Catalog;
+
+public static class CatalogAssembly
 {
-    public static class CatalogAssembly
-    {
-        public static readonly Assembly Assembly = typeof(CatalogAssembly).Assembly;
+    public static readonly Assembly Assembly = typeof(CatalogAssembly).Assembly;
 
-    }
 }
