@@ -1,5 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Pos.SharedKernel\Pos.SharedKernel.csproj" />
+    <ProjectReference Include="..\Pos.Catalog.Contracts\Pos.Catalog.Contracts.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
 
   </PropertyGroup>
