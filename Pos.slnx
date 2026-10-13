@@ -1,2 +1,17 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Pos.Api/Pos.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Catalog/">
+    <Project Path="src/Modules/Catalog/Pos.Catalog.Contracts/Pos.Catalog.Contracts.csproj" />
+    <Project Path="src/Modules/Catalog/Pos.Catalog/Pos.Catalog.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Pos.SharedKernel/Pos.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Pos.ArchitectureTests/Pos.ArchitectureTests.csproj" />
+    <Project Path="tests/Pos.Catalog.Tests/Pos.Catalog.Tests.csproj" />
+  </Folder>
 </Solution>
