@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: pos-postgres
+    env_file: .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - pos-pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pos-pgdata:
