@@ -12,5 +12,8 @@
     <PackageVersion Include="NetArchTest.Rules" Version="1.3.2" />
     <!-- Pinned: transitive via Microsoft.AspNetCore.OpenApi; 2.0.0 has CVE-2026-49451 -->
     <PackageVersion Include="Microsoft.OpenApi" Version="2.7.5" />
+    <PackageVersion Include="Npgsql.DependencyInjection" Version="10.0.3" />
+    <!-- Pinned: Npgsql.DependencyInjection asks for >= 8.0.0, which causes a downgrade (NU1605) in non-web projects -->
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
   </ItemGroup>
 </Project>

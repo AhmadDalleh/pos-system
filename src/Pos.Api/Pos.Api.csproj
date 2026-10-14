@@ -1,9 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-
+  <PropertyGroup>
+    <UserSecretsId>3757bd04-4218-401f-b13b-f11cdd748052</UserSecretsId>
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Npgsql.DependencyInjection" />
   </ItemGroup>
 
   <ItemGroup>
